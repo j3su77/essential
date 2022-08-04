@@ -1,0 +1,28 @@
+.bn__tab {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    flex: 1;
+  }
+  .bn__tab a {
+    color: #1B65A7;
+    text-decoration: none !important;
+  }
+.bn__tab a svg {
+    font-size: 40px !important;
+
+}
+
+.bn__tab .bn__tab-active {
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height:   60px;
+    border-radius: .7rem;
+    color: #55ACFB;
+ 
+  }

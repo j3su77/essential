@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+progress {
+  -webkit-appearance: none;
+}
+
+
+
+.personalizacion__card {
+  background-color: #C9FFC9;
+  color: #3DA749;
+  border: 4px solid;
+  border-radius: .7rem;
+ 
+}
+
+.personalizacion__dark {
+  background-color: #3DA749;
+}
+
+.personalizacion__light {
+  background-color: #C9FFC9;
+}
+
+.personalizacion__text-dark {
+  color: #3DA749;
+}
+
+.personalizacion__text-light {
+  color: #C9FFC9;
+}
+
+
+
+
+
+.solucion__card {
+  background-color: #FFFF99;
+  color: #E97000;
+  border: 4px solid;
+  border-radius: .7rem;
+ 
+
+}
+
+.solucion__dark {
+  background-color: #E97000;
+}
+
+.solucion__light {
+  background-color: #FFFF99;
+}
+
+.solucion__text-dark {
+  color: #E97000;
+}
+
+.solucion__text-light {
+  color: #FFFF99;
+}
+
+
+
+
+.gestion__card {
+  background-color: #C6D9F1;
+  color: #4C6FC6;
+  border: 2px solid;
+  border-radius: .4rem;
+
+}
+
+.gestion__dark {
+  background-color: #4C6FC6;
+}
+
+.gestion__light {
+  background-color: #C6D9F1;
+}
+
+.gestion__text-dark {
+  color: #4C6FC6;
+}
+
+.gestion__text-light {
+  color: #C6D9F1;
+}
+
+
+.carousel-root {
+ 
+  place-content: center;
+  place-items: center;
+  display: grid;
+}

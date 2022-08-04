@@ -1,0 +1,63 @@
+.transitioncard__container {
+    background-color: #fff;
+    color: #1e1e1e;
+    width: 100%;
+    min-height: 100%    ;
+}
+
+.transitioncard__desc {
+    padding: .6rem;
+}
+
+.name {
+    text-transform: capitalize;
+    margin-bottom: .5rem;
+    text-decoration: none;
+    width: fit-content;
+    position: absolute;
+    z-index: 10;
+}
+
+.percent {
+  width: 90%;
+  height: 2.5rem;
+  position: relative;
+  background:#fff;
+  border-radius: 0.4rem;
+  padding: 10px;
+  color: #1e1e1e;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: .6rem;
+  border: 3px solid;
+}
+
+.progress {
+  display: flex;
+  height: 3.2rem;
+  justify-content: center;
+  border-top-right-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-left-radius: 0.7rem;
+  position: absolute;
+  overflow: hidden;
+  top: -0.3rem;
+  left: 0;
+  z-index: 2;
+}
+
+.name {
+  text-align: center;
+  color: #1e1e1e;
+  font-size: 1.1rem;
+  font-weight: 500;
+  z-index: 1;
+  top: 0;
+  right: 0;
+left: 0;
+  position: absolute;
+  z-index: 100;
+  margin: auto;
+ margin-top: .3rem;
+}
